@@ -1,0 +1,53 @@
+﻿@page
+@model ProyectoG58.App.Presentacion.ListClientModel
+@{
+}
+<h1>Listado de Clientes</h1>
+<div class="row mb-3">
+    <div class="card-body">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Identificación</th>
+                    <th>Dirección</th>
+                    <th>Telefono</th>
+                    <th>Email</th>
+                    <th>Estado</th>
+                    <th>Detalle</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            @foreach (var cliente in Model.clientes)
+            {
+                <tr>
+                    <td>@cliente.id</td>
+                    <td>@cliente.nombre</td>
+                    <td>@cliente.identificacion</td>
+                    <td>@cliente.direccion</td>
+                    <td>@cliente.telefono</td>
+                    <td>@cliente.email</td>
+                    <td>@cliente.estado</td>
+                    <td style="width:200px">
+                        <a class="btn btn-primary btn-xs" asp-page="./List" asp-route-clienteId="@cliente.id">
+                          <i class="fas fa-info-circle"></i>Detalle
+                        </a>
+                    </td>
+                    <td style="width:200px">
+                        <a class="btn btn-success btn-xs" asp-page="./List" asp-route-clienteId="@cliente.id">
+                          <i class="fas fa-address-book" ></i>Editar
+                        </a>
+                    </td>
+                    <td style="width:200px">
+                        <a class="btn btn-danger btn-xs" asp-page="./List" asp-route-clienteId="@cliente.id">
+                           <i class="fas fa-exclamation-triangle"></i>Eliminar
+                        </a>
+                    </td>  
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<a asp-page=".\List" class="btn btn-primary">Adicionar un Cliente</a>

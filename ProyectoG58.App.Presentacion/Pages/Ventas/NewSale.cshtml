@@ -1,0 +1,151 @@
+﻿@page
+@model ProyectoG58.App.Presentacion.NewSaleModel
+@{
+}
+
+<div class="card shadow-lg border-0 rounded-lg mt-5">
+    <div class="card-header"><h3 class="text-center font-weight-light my-4">Generar Factura</h3></div>
+    <div class="card-body">
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <div class="mt-4 mb-0">
+                        <div class="d-grid"><a class="btn btn-primary " asp-page="./List">Grabar</a></div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="mt-4 mb-0">
+                        <div class="d-grid"><a class="btn btn-danger " asp-page="./Index">Cancelar</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <div class="form-floating mb-3 mb-md-0">
+                        <input class="form-control" id="inputFecha" type="date" placeholder="Ingrese la Fecha de la Venta" />
+                        <label for="inputFecha">Fecha: </label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputFactura" type="text" placeholder="Factura"  value="001" disabled="disabled"/>
+                        <label for="inputFactura">No. Factura</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3 mb-md-0">
+                        <select class="form-control" id="selectNombreCliente" name="selectCliente">
+                            <option>Seleccione...</option>
+                            <option>Pepito Perez</option>
+                            <option>Juanita Alvarez</option>
+                            <option>Pablo Mendoza</option>
+                            <option>Ariel Luna</option>
+                            <option>Maria Diaz</option>
+                        </select>
+                        <label for="selectNombreCliente">Nombre Cliente:</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputIdentificacionCliente" type="text" placeholder="No Identificación" />
+                        <label for="inputIdentificacionCliente">No. Identificación:</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputTelefonoCliente" type="text" placeholder="Telefono" />
+                        <label for="inputTelefonoCliente">Teléfono:</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3 mb-md-0">
+                        <input class="form-control" id="inputDireccionClinete" type="text" placeholder="Dirección" />
+                        <label for="inputDireccionClinete">Dirección:</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3 mb-md-0">
+                        <input class="form-control" id="inputCorreoCliente" type="email" placeholder="name@example.com" />
+                        <label for="inputCorreoCliente">Correo Eléctronico:</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-table me-1"></i>
+                    Detalle de la Venta
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <div class="form-floating mb-3 mb-md-0">
+                        <select class="form-control" id="selectProducto" name="selectProducto">
+                            <option>Seleccione...</option>
+                            <option>Acetaminofen</option>
+                            <option>Diclofenaco</option>
+                            <option>Sulfato de zinc</option>
+                            <option>Dolex</option>
+                            <option>Tramadol</option>
+                        </select>
+                        <label for="selectProducto">Producto:</label>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputCantidadProducto" type="text" />
+                        <label for="inputCantidadProducto">Cantidad:</label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputVrUnitarioProducto" type="text"  />
+                        <label for="inputVrUnitarioProducto">Vr Unitario:</label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputVrIvaProducto" type="text"  />
+                        <label for="inputVrIvaProducto">Vr Iva:</label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-floating">
+                        <input class="form-control" id="inputVrParcialProducto" type="text"  />
+                        <label for="inputVrParcialProducto">Vr Parcial:</label>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-floating">
+                        <div class="btn btn-success btn-block" id="btnAgregaProducto">Agregar</div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="row mb-3">
+                <div class="card-body">
+                    <table class="table table-bordered table-hover" id="tablaDetalleVenta">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Vr Unitario</th>
+                                <th>Vr Iva</th>
+                                <th>Vr Parcial</th>
+                                <th>Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tablaDetalleVenta"> 
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            
+        </form>
+    </div>
+</div>
