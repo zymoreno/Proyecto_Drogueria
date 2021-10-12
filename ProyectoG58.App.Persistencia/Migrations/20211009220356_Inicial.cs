@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-using MySql.EntityFrameworkCore.Metadata;
 
 namespace ProyectoG58.App.Persistencia.Migrations
 {
@@ -12,10 +11,10 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    nombre = table.Column<string>(type: "text", nullable: true),
-                    direccion = table.Column<string>(type: "text", nullable: true),
-                    telefono = table.Column<string>(type: "text", nullable: true)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    telefono = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -27,13 +26,13 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    nombre = table.Column<string>(type: "text", nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     identificacion = table.Column<int>(type: "int", nullable: false),
-                    direccion = table.Column<string>(type: "text", nullable: true),
-                    telefono = table.Column<string>(type: "text", nullable: true),
-                    email = table.Column<string>(type: "text", nullable: true),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                    direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    telefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -45,11 +44,11 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    nombre = table.Column<string>(type: "text", nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     identificacion = table.Column<int>(type: "int", nullable: false),
-                    cargo = table.Column<string>(type: "text", nullable: true),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                    cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -61,10 +60,10 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    codigo = table.Column<string>(type: "text", nullable: true),
-                    nombre = table.Column<string>(type: "text", nullable: true),
-                    fechaRegistro = table.Column<string>(type: "text", nullable: true)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    codigo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    fechaRegistro = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -76,13 +75,13 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    fecha = table.Column<string>(type: "text", nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    fecha = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     tipo = table.Column<int>(type: "int", nullable: false),
-                    saldo = table.Column<double>(type: "double", nullable: false),
+                    saldo = table.Column<double>(type: "float", nullable: false),
                     clienteId = table.Column<int>(type: "int", nullable: false),
                     empleadoId = table.Column<int>(type: "int", nullable: false),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -94,11 +93,11 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    fecha = table.Column<string>(type: "text", nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    fecha = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     bodegaId = table.Column<int>(type: "int", nullable: false),
                     proveedorId = table.Column<int>(type: "int", nullable: false),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -110,10 +109,10 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     cantidad = table.Column<int>(type: "int", nullable: false),
-                    valor = table.Column<double>(type: "double", nullable: false),
-                    iva = table.Column<double>(type: "double", nullable: false),
+                    valor = table.Column<double>(type: "float", nullable: false),
+                    iva = table.Column<double>(type: "float", nullable: false),
                     productoId = table.Column<int>(type: "int", nullable: false),
                     ordenCompraId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -127,13 +126,13 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    nombre = table.Column<string>(type: "text", nullable: true),
-                    lote = table.Column<string>(type: "text", nullable: true),
-                    fechaVencim = table.Column<string>(type: "text", nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    lote = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    fechaVencim = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     cantidad = table.Column<int>(type: "int", nullable: false),
-                    presentacion = table.Column<string>(type: "text", nullable: true),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                    presentacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -145,10 +144,10 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     cantidad = table.Column<int>(type: "int", nullable: false),
-                    valor = table.Column<double>(type: "double", nullable: false),
-                    iva = table.Column<double>(type: "double", nullable: false),
+                    valor = table.Column<double>(type: "float", nullable: false),
+                    iva = table.Column<double>(type: "float", nullable: false),
                     productoId = table.Column<int>(type: "int", nullable: false),
                     facturaId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -162,13 +161,13 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    nombre = table.Column<string>(type: "text", nullable: true),
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     nit = table.Column<int>(type: "int", nullable: false),
-                    direccion = table.Column<string>(type: "text", nullable: true),
-                    telefono = table.Column<string>(type: "text", nullable: true),
-                    email = table.Column<string>(type: "text", nullable: true),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                    direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    telefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -180,10 +179,10 @@ namespace ProyectoG58.App.Persistencia.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
-                    descripcion = table.Column<string>(type: "text", nullable: true),
-                    fechaRegistro = table.Column<string>(type: "text", nullable: true),
-                    estado = table.Column<string>(type: "text", nullable: true)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    fechaRegistro = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -180,30 +180,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lmosquer\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Caballero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyectos_ciclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
       "projectName": "ProyectoG58.App.Dominio",
-      "projectPath": "C:\\proyectos_ciclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\lmosquer\\.nuget\\packages\\",
-      "outputPath": "C:\\proyectos_ciclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\obj\\",
+      "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Caballero\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lmosquer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Caballero\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -237,7 +231,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }

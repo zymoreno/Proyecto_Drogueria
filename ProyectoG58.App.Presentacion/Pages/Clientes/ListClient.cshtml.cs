@@ -15,7 +15,9 @@ namespace ProyectoG58.App.Presentacion
         public ListClientModel(){
             clientes = new List<Cliente>()
             {
-                new Cliente{id=1, nombre="Pepito Perez", identificacion=123456, direccion="Cll 5 N 2-4", telefono="3212522125", email="dsfsdf@gmail.com", estado="A"}
+                new Cliente{id=1, nombre="Pepito Perez", identificacion=123456, direccion="Cll 5 N 2-4", telefono="3212522125", email="dsfsdf@gmail.com", estado="A"},
+                
+                new Cliente{id=2, nombre="Carlos Gomez", identificacion=789123, direccion="Cra 11 N 5-12", telefono="3132222222", email="carlosg@gmail.com", estado="A"}
 
             };
         }
