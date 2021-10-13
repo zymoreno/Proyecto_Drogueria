@@ -1,5 +1,100 @@
-﻿@page
-@model ProyectoG58.App.Presentacion.ListUserModel
-@{
-}
+﻿ @page
+ @model ProyectoG58.App.Presentacion.ListUserModel
+ @{
+ }
+ 
 <h1>ADMINISTRACIÓN DE USUARIOS</h1>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMP</title>
+    <link rel="stylesheet" href="ListUser.cshtml.cs">
+</head>
+<body>
+
+    <div class="container"> 
+        <header>USUARIOS</header>
+        <div class="form-princ">
+            <form action="#"> </form> 
+
+                <div class="pagina">
+                 <div class="titulo">Información principal Usuarios</div>
+                 <div class="campo">
+                    <div class="label">Nombres: </div>
+                    <input type="text" id="nombres" placeholder="Nombres">
+                </div>
+                <div class="campo">
+                    <div class="label">Apellido Paterno </div>
+                    <input type="text" id="apellido1" placeholder="Apellido Paterno">
+                </div>
+                <div class="campo">
+                    <div class="label">Apellido Materno: </div>
+                    <input type="text" id="apellido2" placeholder="Apellido Materno">
+                </div>
+                <div class="campo"></div>
+                 <button>Siguiente</button>
+    </div>
+                </div>
+                
+               
+                <div class="pagina">
+                 <div class="titulo">Información secundaria Usuarios</div>
+                  <div class="campo">
+                    <div class="label">Fecha Nacimiento: </div>
+                    <input type="date" id="fechaNac" max="2010-12-31" value="2010-02-03">
+                </div>
+                <div class="campo">
+                    <div class="label">Sexo: </div>
+                    <select id="sexo">
+                        <option value="-1" disable selected>Escoge una opción.</option>
+                        <option value="0">Masculino</option>
+                        <option value="1">Femenino</option>
+                        <option value="2">Sin especificar</option>
+                    </select>
+                </div>
+                <div class="campo btns"></div>
+                <button class="volver-pagina-1 volver">Atras</button>
+                 <button class="adelante-pagina-2 adelante">Siguiente</button>
+                </div>
+                </div>
+             
+                 
+
+                <div class="pagina">
+                 <div class="titulo">Información contacto</div>
+                  <div class="campo">
+                    <div class="label">Correo Electrónico: </div>
+                    <input type="text" id="correo" placeholder="Correo Electrónico">
+                </div>
+                <div class="campo">
+                    <div class="label">Número Telefónico: </div>
+                    <input type="text" id="Numcel" placeholder="Número Telefónico">
+                </div>
+                <div class="campo btns"></div>
+                <button class="volver-pagina-2 volver">Atras</button>
+                 <button class="adelante-pagina-4 adelante">Siguiente</button>
+                </div>
+                
+
+                <div class="pagina">
+                 <div class="titulo">Información Inicio Sesión</div>
+                  <div class="campo">
+                    <div class="label">Nombre de Usuario: </div>
+                    <input type="text" id="usuario" placeholder="Nombre de Usuario">
+                </div>
+                <div class="campo">
+                    <div class="label">Contraseña: </div>
+                    <input type="password" id="contra" placeholder="Contraseña">
+                </div>
+                <div class="campo btns"></div>
+                <button class="volver-pagina-3 volver">Atras</button>
+                 <button class="fin">Finalizar</button>
+                </div>
+
+        
+</body>
+
+</html>

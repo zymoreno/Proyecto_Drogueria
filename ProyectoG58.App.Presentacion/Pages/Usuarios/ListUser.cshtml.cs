@@ -10,7 +10,9 @@ namespace ProyectoG58.App.Presentacion
     public class ListUserModel : PageModel
     {
         public void OnGet()
-        {            
+        {
+                         
         }
     }
 }
+
