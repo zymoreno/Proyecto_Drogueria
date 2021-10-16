@@ -1,0 +1,13 @@
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\bin\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.deps.json
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\bin\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.dll
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\bin\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.pdb
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\bin\MCD\Debug\netstandard2.1\ProyectoG58.App.Dominio.dll
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\bin\MCD\Debug\netstandard2.1\ProyectoG58.App.Dominio.pdb
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.csproj.AssemblyReference.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.AssemblyInfo.cs
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.csproj.CopyComplete
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.dll
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Persistencia\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Persistencia.pdb

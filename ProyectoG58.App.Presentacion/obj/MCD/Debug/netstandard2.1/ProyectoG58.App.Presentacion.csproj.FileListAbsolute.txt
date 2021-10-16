@@ -1,0 +1,5 @@
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Presentacion.csproj.AssemblyReference.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Presentacion.AssemblyInfoInputs.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Presentacion.AssemblyInfo.cs
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\MCD\Debug\netstandard2.1\ProyectoG58.App.Presentacion.csproj.CoreCompileInputs.cache

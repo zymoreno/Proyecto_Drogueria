@@ -24,8 +24,8 @@ using ProyectoG58.App.Dominio;
 
                 optionsBuilder
                //.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =ProyectoG58");
-                //.UseSqlServer("Server=172.16.1.26; Database=ProyectoG58; user id=sa; password=Desa.360");
-                .UseMySQL("server=localhost;port=3306; database=proyectog58;user=lmosquer;password=12345;old guids=true; default command timeout=800;");
+                .UseSqlServer("Server=localhost; Database=ProyectoG58; user id=sa; password=1234");
+                //.UseMySQL("server=localhost;port=3306; database=proyectog58;user=lmosquer;password=12345;old guids=true; default command timeout=800;");
             }
         }    
     }

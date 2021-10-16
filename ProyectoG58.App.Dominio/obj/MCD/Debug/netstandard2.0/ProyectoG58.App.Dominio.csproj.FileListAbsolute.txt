@@ -1,0 +1,10 @@
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\bin\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.deps.json
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\bin\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.dll
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\bin\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.pdb
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.csproj.AssemblyReference.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.AssemblyInfo.cs
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.dll
+C:\ProyectoCiclo3\Proyecto_Drogueria\ProyectoG58.App.Dominio\obj\MCD\Debug\netstandard2.0\ProyectoG58.App.Dominio.pdb
