@@ -1,0 +1,27 @@
+@page
+@model ProyectoG58.App.Presentacion.Pages.Clientes.EditModel
+
+@{
+    int clienteId = Model.cliente.id;
+}
+
+<h2>Edición de los datos del cliente @Model.cliente.nombre @Model.cliente.identificacion</h2>
+<form method="post">
+    <input type="hidden" asp-for="cliente.id" />  
+      
+    <div class="form-group">
+        <label asp-for="cliente.identificacion"></label>
+        <input asp-for="cliente.identificacion" class="form-control">
+        <span class="text-danger" asp-validation-for="cliente.identificacion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="cliente.nombre"></label>
+        <input asp-for="cliente.nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="cliente.nombre"></span>
+    </div>
+
+    
+    <button type="submit" class="btn btn-success">Grabar</button>    
+</form>
+
+<a asp-page="./List" class="btn-default">Regresar a la lista de clientees </a>

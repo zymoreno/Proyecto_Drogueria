@@ -21,6 +21,14 @@ namespace ProyectoG58.App.Presentacion
         }
         public void OnGet()
         {
+
+                 
+                         
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3

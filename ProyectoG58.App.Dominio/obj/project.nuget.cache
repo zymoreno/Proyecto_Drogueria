@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7uifQOXp2F9LvAilnJQKCw7LldBQPBjFB3ks7UMtMuj+d5AeoRWDG7DIqcsgnyDrSu3VKT3bKPuq2Ida1Mey7Q==",
   "success": true,
   "projectFilePath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+=======
+  "dgSpecHash": "0OPmFaNEvJhrh15/o3jhxrfEbwY9adIiAmf2wALkoqd+qTRFv7abzZxY5AeFPe3Ym21v+WCy5TwNDbFyd/idGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Caballero\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Caballero\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+>>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3
   ],
   "logs": []
 }

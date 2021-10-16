@@ -19,7 +19,7 @@ namespace ProyectoG58.App.Presentacion.Pages
 
         public void OnGet()
         {
-            //
+            
         }
     }
 }
