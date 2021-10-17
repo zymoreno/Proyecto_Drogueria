@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: serif;
+    }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(~/ProyectoG58.App.Presentacion/Imagen/farmacia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container{
+    width: 350px;
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+    padding: 30px 35px 0 35px;
+  }
+  .container header{
+   font-size: 28px;
+   font-weight: 600;
+   margin: 0 0 30px 0;
+  }
+  .container .form-princ{
+    width: 100%;
+   overflow: hidden;
+  }
+  .from-princ form{
+    display: flex;
+    width: 400%;
+  }
+  
+  .form-princ form .pagina{
+    width: 25%
+  }
+  
+  .form-princ form .pagina .titulo{ 
+   text-align: left;
+   font-size: 20px;
+   font-weight: 500;
+  }
+  
+  .form-princ form .pagina .campo{ 
+   height: 35px;
+   width:350px;
+   margin: 40px 0;
+   display: flex;
+   position: relative;
+  }
+  
+  .form-princ form .pagina .campo .label{
+   position: absolute;
+   top: -30px;
+   font-weight: 500;
+   font-size: 14px;
+   font-style: italic;
+   float: left;
+   text-align: left;
+   width: 100%;
+  }
+  
+  .form-princ form .pagina .campo .input{
+   width: 100%;
+   height: 100%;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   font-size: 16px;
+   padding-left: 15px;
+  }
+  
+  .form-princ form .pagina .campo .select{
+   width: 100%;
+   padding-left: 10px;
+   font-size: 17px;
+   font-weight: 500;
+   border-radius: 5px;
+   border: 1px solid lightgrey;
+  }
+  
+  .form-princ form .pagina .campo button{
+   width: 100%;
+   height: calc(100% + 5px);
+   margin-top: -20px;
+   border: none;
+   background: #0E3C48;
+   border-radius: 7px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: 0.3s ease;
+  }
+  
+  .form-princ form .pagina .campo button:hover{
+   background: #DB2A31;
+  }
+  
+  .form-princ form .pagina .btns button{
+   margin-top: -20px!important;
+  }
+  
+   form .pagina .btns button.volver{
+   margin-right: 3px;
+   font-size: 17px;
+  }
+   
+   form .pagina .btns button.adelante{
+   margin-left: 3px;
+   }
+
+   .container .progress-bar{
+     display: flex;
+     margin: 40px 0;
+   }
+
+   .container .progress-bar .paso{
+     text-align: center;
+     width: 100%;
+   }
+
+   .progress-bar .paso .p{
+     font-size: 18px;
+     font-weight: 500;
+     color: #000;
+     margin-bottom: 8px;
+    }
+
+    .progress-bar .paso .num{
+      position: relative;
+      width: 25px;
+      height: 25px;
+      border: 2px solid #000;
+      border-radius: 50%;
+      display: inline-block;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 25px;
+    }

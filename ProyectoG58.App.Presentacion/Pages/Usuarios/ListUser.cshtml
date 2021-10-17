@@ -1,100 +1,377 @@
-﻿ @page
- @model ProyectoG58.App.Presentacion.ListUserModel
- @{
- }
- 
+﻿@page
+@model ProyectoG58.App.Presentacion.ListUserModel
+@{
+}
+
 <h1>ADMINISTRACIÓN DE USUARIOS</h1>
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FMP</title>
-    <link rel="stylesheet" href="ListUser.cshtml.cs">
+    <title>PROYECTO_DROGUERIA</title>
+
+    <link rel="stylesheet" href="<link rel=" stylesheet" href="ListUser.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        font-family: serif;
+
+    }
+
+    body {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: url(/farmacia.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;*/
+    }
+
+    .container {
+        width: 350px;
+        background: #fcf9f9;
+        border-radius: 7px;
+        text-align: center;
+        padding: 30px 35px 0 35px;
+    }
+
+    .container header {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0 0 30px 0;
+    }
+
+    .container .form-princ {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .from-princ form {
+        display: flex;
+        width: 400%;
+    }
+
+    .form-princ form .pagina {
+        width: 25%
+    }
+
+    .form-princ form .pagina .titulo {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .form-princ form .pagina .campo {
+        height: 35px;
+        width: 350px;
+        margin: 40px 0;
+        display: flex;
+        position: relative;
+    }
+
+    .form-princ form .pagina .campo .label {
+        position: absolute;
+        top: -30px;
+        font-weight: 500;
+        font-size: 14px;
+        font-style: italic;
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+
+    .form-princ form .pagina .campo .input {
+        width: 100%;
+        height: 100%;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .form-princ form .pagina .campo .select {
+        width: 100%;
+        padding-left: 10px;
+        font-size: 17px;
+        font-weight: 500;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+    }
+
+    .form-princ form .pagina .campo button {
+        width: 100%;
+        height: calc(100% + 5px);
+        margin-top: -20px;
+        border: none;
+        background: #0E3C48;
+        border-radius: 7px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .form-princ form .pagina .campo button:hover {
+        background: #DB2A31;
+    }
+
+    .form-princ form .pagina .btns button {
+        margin-top: -20px !important;
+    }
+
+    form .pagina .btns button.volver {
+        margin-right: 3px;
+        font-size: 17px;
+    }
+
+    form .pagina .btns button.adelante {
+        margin-left: 3px;
+    }
+
+    .container .progress-bar {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .container .progress-bar .paso {
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .progress-bar .paso p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 8px;
+    }
+
+    .progress-bar .paso .num {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .progress-bar .paso .span {
+        font-weight: 500%;
+        font-size: 17px;
+        line-height: 25px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .progress-bar .paso .check {
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        font-sise: 15px;
+        transform: translate(-50%, -50%);
+    }
+
+    .progress-bar .paso .num:before,
+    .progress-bar .paso .num:after {
+        position: absolute;
+        content: ' ';
+        width: 44px;
+        height: 3px;
+        bottom: 11px;
+        right: -53px;
+        background #000;
+    }
+
+    .progress-bar .paso:last-child .num:before,
+    .progress-bar .paso:last-child .num:after {
+        display: none;
+    }
+
+    .progress-bar .paso .num:after {
+        background: #DB2A31;
+        animation: mov_linea 0.3s linear forwards;
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    /*estilos contraseña*/
+     .ojitos{
+         position: absolute;
+         top: 29%;
+         right: 7px;
+         font-size: 20px;
+         color: #0E2C48;
+     }
+
+     #ocultar{
+         display: none;
+     }
+
+     #mostrar, #ocultar{
+         cursor: pointer;
+     }   
+
+</style>
+
 <body>
 
-    <div class="container"> 
+    <div class="container">
         <header>USUARIOS</header>
         <div class="form-princ">
-            <form action="#"> </form> 
+            <form action="#">
+                <div class="progress-bar">
+                    <div class="paso">
+                        <p>Datos</p>
+                        <div class="num">
+                            <span>1</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+                    </div>
+                    <div class="paso">
+                        <p>Nacimiento</p>
+                        <div class="num">
+                            <span>2</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+                    </div>
+                    <div class="paso">
+                        <p>contacto</p>
+                        <div class="num">
+                            <span>3</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+                    </div>
+                    <div class="paso">
+                        <p>Usuario</p>
+                        <div class="num">
+                            <span>4</span>
+                        </div>
+                        <div class="check fas fa-check"></div>
+                    </div>
+                </div>
+
+
+
+
+                <!--pagina 1-->
+                <div class="pagina movPag">
+                    <div class="titulo">Información principal Usuarios</div>
+                    <div class="campo">
+                        <div class="label">Nombres: </div>
+                        <input type="text" id="nombres" placeholder="Nombres">
+                    </div>
+                    <div class="campo">
+                        <div class="label">Apellido Paterno </div>
+                        <input type="text" id="apellido1" placeholder="Apellido Paterno">
+                    </div>
+                    <div class="campo">
+                        <div class="label">Apellido Materno: </div>
+                        <input type="text" id="apellido2" placeholder="Apellido Materno">
+                    </div>
+                    <div class="campo sigPag"></div>
+                    <button>Siguiente</button>
+
+
+
+                    <!--pagina 2-->
+
+                    <div class="pagina">
+                        <div class="titulo">Información secundaria Usuarios</div>
+                        <div class="campo">
+                            <div class="label">Fecha Nacimiento: </div>
+                            <input type="date" id="fechaNac" max="2010-12-31" value="2010-02-03">
+                        </div>
+                        <div class="campo">
+                            <div class="label">Sexo: </div>
+                            <select id="sexo">
+                                <option value="-1" disable selected>Escoge una opción.</option>
+                                <option value="0">Masculino</option>
+                                <option value="1">Femenino</option>
+                                <option value="2">Sin especificar</option>
+                            </select>
+                        </div>
+                        <div class="campo btns"></div>
+                        <button class="volver-pagina-1 volver">Atras</button>
+                        <button class="adelante-pagina-3 adelante">Siguiente</button>
+                    </div>
+                </div>
+
+                <!--pagina 3-->
 
                 <div class="pagina">
-                 <div class="titulo">Información principal Usuarios</div>
-                 <div class="campo">
-                    <div class="label">Nombres: </div>
-                    <input type="text" id="nombres" placeholder="Nombres">
+                    <div class="titulo">Información contacto</div>
+                    <div class="campo">
+                        <div class="label">Correo Electrónico: </div>
+                        <input type="text" id="correo" placeholder="Correo Electrónico">
+                    </div>
+                    <div class="campo">
+                        <div class="label">Número Telefónico: </div>
+                        <input type="text" id="Numcel" placeholder="Número Telefónico">
+                    </div>
+                    <div class="campo btns"></div>
+                    <button class="volver-pagina-2 volver">Atras</button>
+                    <button class="adelante-pagina-4 adelante">Siguiente</button>
                 </div>
-                <div class="campo">
-                    <div class="label">Apellido Paterno </div>
-                    <input type="text" id="apellido1" placeholder="Apellido Paterno">
+
+                <!--pagina 4-->
+
+                <div class="pagina">
+                    <div class="titulo">Información Inicio Sesión</div>
+                    <div class="campo">
+                        <div class="label">Nombre de Usuario: </div>
+                        <input type="text" id="usuario" placeholder="Nombre de Usuario">
+                    </div>
+                    <div class="campo">
+                        <div class="label">Contraseña: </div>
+                        <input type="password" id="contra" placeholder="Contraseña">
+                        <span class="ojitos" onclick="MostrarContra()"> 
+                            <i id="mostrar" class="fa fa-eye" title="Mostrar Contraseña" ></i>
+                            <i id="ocultar" class="fa fa-eye-slash" title="Ocultar Contraseña"></i>
+                        </span>
+                    </div>
+                    <div class="campo btns"></div>
+                    <button class="volver-pagina-3 volver">Atras</button>
+                    <button class="fin">Finalizar</button>
                 </div>
-                <div class="campo">
-                    <div class="label">Apellido Materno: </div>
-                    <input type="text" id="apellido2" placeholder="Apellido Materno">
-                </div>
-                <div class="campo"></div>
-                 <button>Siguiente</button>
+            </form>
+        </div>
     </div>
-                </div>
-                
-               
-                <div class="pagina">
-                 <div class="titulo">Información secundaria Usuarios</div>
-                  <div class="campo">
-                    <div class="label">Fecha Nacimiento: </div>
-                    <input type="date" id="fechaNac" max="2010-12-31" value="2010-02-03">
-                </div>
-                <div class="campo">
-                    <div class="label">Sexo: </div>
-                    <select id="sexo">
-                        <option value="-1" disable selected>Escoge una opción.</option>
-                        <option value="0">Masculino</option>
-                        <option value="1">Femenino</option>
-                        <option value="2">Sin especificar</option>
-                    </select>
-                </div>
-                <div class="campo btns"></div>
-                <button class="volver-pagina-1 volver">Atras</button>
-                 <button class="adelante-pagina-2 adelante">Siguiente</button>
-                </div>
-                </div>
-             
-                 
+<script>
+    funtion mostrarContra(){
+        var x = document.getElementById("contra");
+        var y = document.getElementById("ocultar");
+        var z = document.getElementById("mostrar");
 
-                <div class="pagina">
-                 <div class="titulo">Información contacto</div>
-                  <div class="campo">
-                    <div class="label">Correo Electrónico: </div>
-                    <input type="text" id="correo" placeholder="Correo Electrónico">
-                </div>
-                <div class="campo">
-                    <div class="label">Número Telefónico: </div>
-                    <input type="text" id="Numcel" placeholder="Número Telefónico">
-                </div>
-                <div class="campo btns"></div>
-                <button class="volver-pagina-2 volver">Atras</button>
-                 <button class="adelante-pagina-4 adelante">Siguiente</button>
-                </div>
-                
-
-                <div class="pagina">
-                 <div class="titulo">Información Inicio Sesión</div>
-                  <div class="campo">
-                    <div class="label">Nombre de Usuario: </div>
-                    <input type="text" id="usuario" placeholder="Nombre de Usuario">
-                </div>
-                <div class="campo">
-                    <div class="label">Contraseña: </div>
-                    <input type="password" id="contra" placeholder="Contraseña">
-                </div>
-                <div class="campo btns"></div>
-                <button class="volver-pagina-3 volver">Atras</button>
-                 <button class="fin">Finalizar</button>
-                </div>
-
-        
+        if (x.type=="password"){
+            x.type="text";
+            y.style.display="block";
+            z.style.display="none";
+        }else{
+            x.type="password";
+            y.style.display="none";
+            z.style.display="block";
+        }
+    }
+</script>
+<script src="movimiento.js"></script> 
 </body>
 
 </html>
