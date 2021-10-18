@@ -24,8 +24,17 @@ using ProyectoG58.App.Dominio;
 
                 optionsBuilder
                //.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =ProyectoG58");
+<<<<<<< HEAD
                 .UseSqlServer("Server=localhost; Database=ProyectoG58; user id=sa; password=Juan2012");
+=======
+<<<<<<< HEAD
+                .UseSqlServer("Server=localhost; Database=ProyectoG58; user id=sa; password=1234");
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
                 //.UseMySQL("server=localhost;port=3306; database=proyectog58;user=lmosquer;password=12345;old guids=true; default command timeout=800;");
+=======
+                .UseSqlServer("Server=localhost; Database=ProyectoG58; user id=sa; password=Juan2012");
+                //UseMySQL("server=localhost;port=3306; database=proyectog58;user=lmosquer;password=12345;old guids=true; default command timeout=800;");
+>>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3
             }
         }    
     }

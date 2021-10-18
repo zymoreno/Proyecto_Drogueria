@@ -77,6 +77,7 @@ C:\proyectos_ciclo3\CRUDRAZOR\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\Zs
 C:\proyectos_ciclo3\CRUDRAZOR\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\MySql.EntityFrameworkCore.dll
 C:\proyectos_ciclo3\CRUDRAZOR\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
 C:\proyectos_ciclo3\CRUDRAZOR\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+<<<<<<< HEAD
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\ProyectoG58.App.Consola.exe
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\ProyectoG58.App.Consola.deps.json
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\ProyectoG58.App.Consola.runtimeconfig.json
@@ -156,6 +157,8 @@ C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\obj\Debug\netcore
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\obj\Debug\netcoreapp3.1\ProyectoG58.App.Consola.dll
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\obj\Debug\netcoreapp3.1\ProyectoG58.App.Consola.pdb
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Consola\obj\Debug\netcoreapp3.1\ProyectoG58.App.Consola.genruntimeconfig.cache
+=======
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
 C:\Proyecto_Drogueria\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\ProyectoG58.App.Consola.exe
 C:\Proyecto_Drogueria\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\ProyectoG58.App.Consola.deps.json
 C:\Proyecto_Drogueria\ProyectoG58.App.Consola\bin\Debug\netcoreapp3.1\ProyectoG58.App.Consola.runtimeconfig.json

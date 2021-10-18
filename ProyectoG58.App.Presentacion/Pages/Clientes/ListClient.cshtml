@@ -51,6 +51,7 @@
                     <td>@cliente.telefono</td>
                     <td>@cliente.email</td>
                     <td>@cliente.estado</td>
+<<<<<<< HEAD
                     <td>
                         <a asp-page="./Details" asp-route-clienteId="@cliente.id">
                             <button type="button" class="btn btn-primary btn-xs" aria-label="Left Align"  title="Detalle">
@@ -74,3 +75,26 @@
     </div>
 </div>
 
+=======
+                    <td style="width:200px">
+                        <a class="btn btn-success btn-xs" asp-page="./Details" asp-route-clienteId="@cliente.id">
+                          <i class="fas fa-info-circle"></i>Detalle
+                        </a>
+                    </td>
+                    <td style="width:200px">
+                        <a class="btn btn-primary btn-xs" asp-page="./Edit" asp-route-clienteId="@cliente.id">
+                          <i class="fas fa-address-book" ></i>Editar
+                        </a>
+                    </td>
+                    <td style="width:200px">
+                        <a class="btn btn-danger btn-xs" asp-page="./Delete" asp-route-clienteId="@cliente.id">
+                           <i class="fas fa-exclamation-triangle"></i>Eliminar
+                        </a>
+                    </td>  
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<a asp-page=".\List" class="btn btn-primary">Adicionar un Cliente</a>
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2

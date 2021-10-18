@@ -30,6 +30,7 @@ namespace ProyectoG58.App.Presentacion
         }
         public void OnGet()
         {
+<<<<<<< HEAD
             empleados =repositorioEmpleados.GetAllEmpleados(searchString); 
         }
 
@@ -44,3 +45,16 @@ namespace ProyectoG58.App.Presentacion
         }
     }
 }
+=======
+
+                 
+                         
+        }
+    }
+<<<<<<< HEAD
+}
+=======
+}
+
+>>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2

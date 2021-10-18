@@ -132,6 +132,7 @@ C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\ne
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.dll
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.pdb
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
@@ -202,6 +203,8 @@ C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\ne
 C:\proyectos_ciclo3\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Productos\DeleteBod.cshtml.g.cs
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.pdb
+=======
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -213,6 +216,46 @@ C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\Proye
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.pdb
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.Views.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.Views.pdb
+<<<<<<< HEAD
+=======
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Dominio.dll
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Dominio.pdb
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.csprojAssemblyReference.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.AssemblyInfoInputs.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.AssemblyInfo.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.csproj.CoreCompileInputs.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.RazorAssemblyInfo.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.RazorAssemblyInfo.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.TagHelpers.input.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.TagHelpers.output.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.RazorCoreGenerate.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Clientes\ListClient.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Compras\ListBuy.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Compras\NewBuy.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Productos\Existences.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Productos\ListProd.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Proveedores\ListProv.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios\ListUser.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ventas\ListSale.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ventas\NewSale.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.RazorTargetAssemblyInfo.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.RazorTargetAssemblyInfo.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.Views.pdb
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.csproj.CopyComplete
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\ProyectoG58.App.Presentacion.StaticWebAssets.Manifest.cache
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\ProyectoG58.App.Presentacion.StaticWebAssets.xml
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.dll
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.pdb
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.genruntimeconfig.cache
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
@@ -264,6 +307,7 @@ C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\runti
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+<<<<<<< HEAD
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Dominio.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Persistencia.dll
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Dominio.pdb
@@ -316,3 +360,11 @@ C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Proye
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\ProyectoG58.App.Presentacion.StaticWebAssets.Manifest.cache
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\staticwebassets\ProyectoG58.App.Presentacion.StaticWebAssets.xml
 C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\ProyectoG58.App.Presentacion.genruntimeconfig.cache
+=======
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Persistencia.dll
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\bin\Debug\netcoreapp3.1\ProyectoG58.App.Persistencia.pdb
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Clientes\Delete.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Clientes\Details.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Clientes\Edit.cshtml.g.cs
+C:\Proyecto_Drogueria\ProyectoG58.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Productos\Delete.cshtml.g.cs
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2

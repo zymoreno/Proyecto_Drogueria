@@ -5,7 +5,15 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Caballero\.nuget\packages\</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Usuario\.nuget\packages\</NuGetPackageFolders>
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Caballero\.nuget\packages\</NuGetPackageFolders>
+>>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.1</NuGetToolVersion>
   </PropertyGroup>
@@ -16,6 +24,14 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Caballero\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
+=======
+<<<<<<< HEAD
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Usuario\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
+=======
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\Caballero\.nuget\packages\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
+>>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
   </PropertyGroup>
 </Project>

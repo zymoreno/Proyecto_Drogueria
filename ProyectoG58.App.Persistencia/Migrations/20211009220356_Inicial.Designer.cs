@@ -9,15 +9,11 @@ using ProyectoG58.App.Persistencia;
 namespace ProyectoG58.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-<<<<<<< HEAD:ProyectoG58.App.Persistencia/Migrations/20211017234423_Inicial.Designer.cs
-    [Migration("20211017234423_Inicial")]
-=======
 <<<<<<< HEAD:ProyectoG58.App.Persistencia/Migrations/20211009231048_Inicial.Designer.cs
     [Migration("20211009231048_Inicial")]
 =======
     [Migration("20211009220356_Inicial")]
 >>>>>>> a76a560baca89fdb12ad375d19d94fab53c92fb3:ProyectoG58.App.Persistencia/Migrations/20211009220356_Inicial.Designer.cs
->>>>>>> a632ea5c93d802a76e000df315448dafe92383b2:ProyectoG58.App.Persistencia/Migrations/20211009231048_Inicial.Designer.cs
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -226,9 +222,6 @@ namespace ProyectoG58.App.Persistencia.Migrations
 
                     b.Property<string>("nombre")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("precio")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("presentacion")
                         .HasColumnType("nvarchar(max)");

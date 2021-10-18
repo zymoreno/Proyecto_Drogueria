@@ -25,6 +25,7 @@ namespace ProyectoG58.App.Presentacion
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+       
         public void ConfigureServices(IServiceCollection services)
         {
 
@@ -43,9 +44,14 @@ namespace ProyectoG58.App.Presentacion
             services.AddControllers();
             services.AddRazorPages();
             services.AddScoped<IRepositorioClientes, RepositorioClientes>();
+<<<<<<< HEAD
              services.AddScoped<IRepositorioProveedores, RepositorioProveedores>();
             services.AddSingleton<ProyectoG58.App.Persistencia.AppContext>();
             //escribir los servicios de los IRepositorios
+=======
+            services.AddSingleton<ProyectoG58.App.Persistencia.AppContext>();
+            
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

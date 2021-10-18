@@ -2,6 +2,7 @@
 @model ProyectoG58.App.Presentacion.ListProdModel
 @{
 }
+<<<<<<< HEAD
 <div class="card-header bg-danger"><h3 class="text-center font-weight-light my-4 ">Administración de Productos</h3></div>
 
 <div class="row mb-3">
@@ -25,23 +26,39 @@
                 </div>                
             </div>           
        </div>
+=======
+<h1>Listado de Medicamentos</h1>
+<div class="row mb-3">
+    <div class="card-body">
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
         <table class="table table-bordered table-hover">
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
                     <th>Lote</th>
+<<<<<<< HEAD
                     <th>fecha Vencim</th>
                     <th>Cantidad</th>
                     <th>Precio</th>
                     <th>Presentacion</th>
                     <th>Estado</th>
                     <th>Acciones</th>
+=======
+                    <th>Fecha Vencimiento</th>
+                    <th>cantidad</th>
+                    <th>Presentacion</th>
+                    <th>Estado</th>
+                    <th>Detalle</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
                 </tr>
             </thead>
             @foreach (var producto in Model.productos)
             {
                 <tr>
+<<<<<<< HEAD
                     <td>@producto.id</td>
                     <td>@producto.nombre</td>
                     <td>@producto.lote</td>
@@ -73,3 +90,33 @@
     </div>
 </div>
 
+=======
+                    <td>@producto.id</td>
+                    <td>@producto.nombre</td>
+                    <td>@producto.lote</td>
+                    <td>@producto.fechaVencim</td>
+                    <td>@producto.cantidad</td>
+                    <td>@producto.presentacion</td>
+                    <td>@producto.estado</td>
+                    <td style="width:200px">
+                        <a class="btn btn-success btn-xs" asp-page="./List" asp-route-productoId="@producto.id">
+                          <i class="fas fa-info-circle"></i>Detalle
+                        </a>
+                    </td>
+                    <td style="width:200px">
+                        <a class="btn btn-primary btn-xs" asp-page="./List" asp-route-productoId="@producto.id">
+                          <i class="fas fa-address-book" ></i>Editar
+                        </a>
+                    </td>
+                    <td style="width:200px">
+                        <a class="btn btn-danger btn-xs" asp-page="./List" asp-route-productoId="@producto.id">
+                           <i class="fas fa-exclamation-triangle"></i>Eliminar
+                        </a>
+                    </td>  
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+<a asp-page=".\List" class="btn btn-primary">Adicionar un Producto</a>
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2

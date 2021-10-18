@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿@page
 @model ProyectoG58.App.Presentacion.DetailsModel
 @{
@@ -60,3 +61,22 @@
         </div>
     </div>
 </div>
+=======
+@page
+@model ProyectoG58.App.Presentacion.Pages.Clientes.DetailsModel
+@{
+}
+
+<h2>Datos Detallados de Cliente @Model.cliente.identificacion @Model.cliente.nombre</h2>
+<div>
+    ID: @Model.cliente.id
+</div>
+<div>
+    IDENTIFICACIÓN: @Model.cliente.identificacion
+</div>
+<div>
+    NOMBRES: @Model.cliente.nombre
+</div>
+
+<a asp-page="./List" class="btn btn-default">Volver a la Lista de Clientes.. </a>
+>>>>>>> a632ea5c93d802a76e000df315448dafe92383b2
