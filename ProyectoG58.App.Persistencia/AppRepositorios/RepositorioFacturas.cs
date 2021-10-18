@@ -9,12 +9,12 @@ using ProyectoG58.App.Persistencia;
     {
          private readonly AppContext _appContext;
 
-        public RepositorioFacturas(AppContext appContext)
+         public RepositorioFacturas(AppContext appContext)
          {
             _appContext = appContext;
          }
 
-       //Métodos 
+       //Métodos 
 
         Factura IRepositorioFacturas.AddFactura(Factura factura)
         {

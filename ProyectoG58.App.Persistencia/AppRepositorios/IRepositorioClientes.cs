@@ -7,7 +7,7 @@ using ProyectoG58.App.Dominio;
 {
     public interface IRepositorioClientes
     {
-        IEnumerable<Cliente> GetAllClientes();
+        IEnumerable<Cliente> GetAllClientes(string? nombre);
         Cliente AddCliente(Cliente cliente);
         Cliente UpdateCliente(Cliente cliente);
         void DeleteCliente(int idCliente);    

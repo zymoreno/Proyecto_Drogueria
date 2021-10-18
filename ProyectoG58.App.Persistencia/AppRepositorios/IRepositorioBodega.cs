@@ -7,7 +7,7 @@ using ProyectoG58.App.Dominio;
 {
     public interface IRepositorioBodega
     {
-        IEnumerable<Bodega> GetAllBodegas();
+        IEnumerable<Bodega> GetAllBodegas(string? nombre);
         Bodega AddBodega(Bodega bodega);
         Bodega UpdateBodega(Bodega bodega);
         void DeleteBodega(int idBodega);    

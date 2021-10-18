@@ -8,6 +8,7 @@ using ProyectoG58.App.Persistencia;
     public class RepositorioProveedores : IRepositorioProveedores
     {
          private readonly AppContext _appContext;
+         public IEnumerable<Proveedor> proveedores {get; set;} 
 
         public RepositorioProveedores(AppContext appContext)
          {
@@ -23,9 +24,14 @@ using ProyectoG58.App.Persistencia;
             return proveedorAdicionado.Entity;
         }
 
-        IEnumerable<Proveedor> IRepositorioProveedores.GetAllProveedores()
+        IEnumerable<Proveedor> IRepositorioProveedores.GetAllProveedores(string? nombre)
         {
-            return _appContext.Proveedor;
+            if (nombre != null) {
+              proveedores = _appContext.Proveedor.Where(p => p.nombre.Contains(nombre)); //like sobre la tabla
+            }
+            else 
+               proveedores = _appContext.Proveedor;  //select * from tutor
+            return proveedores;
         }
 
         Proveedor IRepositorioProveedores.GetProveedor(int idProveedor)

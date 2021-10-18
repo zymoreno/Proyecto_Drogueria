@@ -7,7 +7,7 @@ using ProyectoG58.App.Dominio;
 {
     public interface IRepositorioEmpleados
     {
-        IEnumerable<Empleado> GetAllEmpleados();
+        IEnumerable<Empleado> GetAllEmpleados(string? nombre);
         Empleado AddEmpleado(Empleado empleado);
         Empleado UpdateEmpleado(Empleado empleado);
         void DeleteEmpleado(int idEmpleado);    

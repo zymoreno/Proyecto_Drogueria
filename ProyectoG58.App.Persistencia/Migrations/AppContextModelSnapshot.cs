@@ -217,6 +217,9 @@ namespace ProyectoG58.App.Persistencia.Migrations
                     b.Property<string>("nombre")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("precio")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("presentacion")
                         .HasColumnType("nvarchar(max)");
 

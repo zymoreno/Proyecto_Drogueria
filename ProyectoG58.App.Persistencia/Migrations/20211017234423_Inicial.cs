@@ -131,6 +131,7 @@ namespace ProyectoG58.App.Persistencia.Migrations
                     lote = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     fechaVencim = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     cantidad = table.Column<int>(type: "int", nullable: false),
+                    precio = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     presentacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     estado = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },

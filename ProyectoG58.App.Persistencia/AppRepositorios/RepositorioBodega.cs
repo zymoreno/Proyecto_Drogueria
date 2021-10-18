@@ -8,6 +8,7 @@ using ProyectoG58.App.Persistencia;
     public class RepositorioBodega : IRepositorioBodega
     {
          private readonly AppContext _appContext;
+         public IEnumerable<Bodega> bodegas {get; set;} 
 
         public RepositorioBodega(AppContext appContext)
          {
@@ -23,9 +24,14 @@ using ProyectoG58.App.Persistencia;
             return BodegaAdicionada.Entity;
         }
 
-        IEnumerable<Bodega> IRepositorioBodega.GetAllBodegas()
+        IEnumerable<Bodega> IRepositorioBodega.GetAllBodegas(string? nombre)
         {
-            return _appContext.Bodega;
+            if (nombre != null) {
+              bodegas = _appContext.Bodega.Where(p => p.nombre.Contains(nombre)); //like sobre la tabla
+            }
+            else 
+               bodegas = _appContext.Bodega;  //select * from tutor
+            return bodegas;
         }
 
         Bodega IRepositorioBodega.GetBodega(int idBodega)

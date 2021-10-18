@@ -11,6 +11,7 @@ using System;
         public string lote { get; set;}
         public string fechaVencim { get; set; }
         public int cantidad { get; set; }
+        public decimal precio { get; set; }
         public string presentacion { get; set; }
         public string estado { get; set; }
     }

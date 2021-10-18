@@ -8,6 +8,7 @@ using ProyectoG58.App.Persistencia;
     public class RepositorioProductos : IRepositorioProductos
     {
          private readonly AppContext _appContext;
+         public IEnumerable<Producto> productos {get; set;} 
 
         public RepositorioProductos(AppContext appContext)
          {
@@ -23,9 +24,14 @@ using ProyectoG58.App.Persistencia;
             return productoAdicionado.Entity;
         }
 
-        IEnumerable<Producto> IRepositorioProductos.GetAllProductos()
+        IEnumerable<Producto> IRepositorioProductos.GetAllProductos(string? nombre)
         {
-            return _appContext.Producto;
+           if (nombre != null) {
+              productos = _appContext.Producto.Where(p => p.nombre.Contains(nombre)); //like sobre la tabla
+            }
+            else 
+               productos = _appContext.Producto;  //select * from tutor
+            return productos;
         }
 
         Producto IRepositorioProductos.GetProducto(int idProducto)
@@ -42,6 +48,7 @@ using ProyectoG58.App.Persistencia;
                 productoEncontrado.lote= producto.lote;
                 productoEncontrado.fechaVencim = producto.fechaVencim;
                 productoEncontrado.cantidad = producto.cantidad;
+                productoEncontrado.precio = producto.precio;
                 productoEncontrado.presentacion = producto.presentacion;
                 productoEncontrado.estado = producto.estado;
 

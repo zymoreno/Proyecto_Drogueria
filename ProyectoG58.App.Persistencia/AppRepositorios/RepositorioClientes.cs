@@ -8,6 +8,7 @@ using ProyectoG58.App.Persistencia;
     public class RepositorioClientes : IRepositorioClientes
     {
          private readonly AppContext _appContext;
+         public IEnumerable<Cliente> clientes {get; set;} 
 
         public RepositorioClientes(AppContext appContext)
          {
@@ -23,9 +24,14 @@ using ProyectoG58.App.Persistencia;
             return ClienteAdicionado.Entity;
         }
 
-        IEnumerable<Cliente> IRepositorioClientes.GetAllClientes()
+        IEnumerable<Cliente> IRepositorioClientes.GetAllClientes(string? nombre)
         {
-            return _appContext.Cliente;
+            if (nombre != null) {
+              clientes = _appContext.Cliente.Where(p => p.nombre.Contains(nombre)); //like sobre la tabla
+            }
+            else 
+               clientes = _appContext.Cliente;  //select * from tutor
+            return clientes;
         }
 
         Cliente IRepositorioClientes.GetCliente(int idCliente)

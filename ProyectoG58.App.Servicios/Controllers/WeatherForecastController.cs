@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace ProyectoG58.App.Servicios.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("probando")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

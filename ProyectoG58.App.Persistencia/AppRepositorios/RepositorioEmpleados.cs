@@ -8,6 +8,7 @@ using ProyectoG58.App.Persistencia;
     public class RepositorioEmpleados : IRepositorioEmpleados
     {
          private readonly AppContext _appContext;
+         public IEnumerable<Empleado> empleados {get; set;} 
 
         public RepositorioEmpleados(AppContext appContext)
          {
@@ -23,9 +24,14 @@ using ProyectoG58.App.Persistencia;
             return empleadoAdicionado.Entity;
         }
 
-        IEnumerable<Empleado> IRepositorioEmpleados.GetAllEmpleados()
+        IEnumerable<Empleado> IRepositorioEmpleados.GetAllEmpleados(string? nombre)
         {
-            return _appContext.Empleado;
+            if (nombre != null) {
+              empleados = _appContext.Empleado.Where(p => p.nombre.Contains(nombre)); //like sobre la tabla
+            }
+            else 
+               empleados = _appContext.Empleado;  //select * from tutor
+            return empleados;
         }
 
         Empleado IRepositorioEmpleados.GetEmpleado(int idEmpleado)

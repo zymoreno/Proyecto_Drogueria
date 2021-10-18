@@ -9,7 +9,7 @@ using ProyectoG58.App.Persistencia;
 namespace ProyectoG58.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211009231048_Inicial")]
+    [Migration("20211017234423_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -218,6 +218,9 @@ namespace ProyectoG58.App.Persistencia.Migrations
 
                     b.Property<string>("nombre")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("precio")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("presentacion")
                         .HasColumnType("nvarchar(max)");

@@ -7,7 +7,7 @@ using ProyectoG58.App.Dominio;
 {
     public interface IRepositorioProductos
     {
-        IEnumerable<Producto> GetAllProductos();
+        IEnumerable<Producto> GetAllProductos(string? nombre);
         Producto AddProducto(Producto producto);
         Producto UpdateProducto(Producto producto);
         void DeleteProducto(int idProducto);    

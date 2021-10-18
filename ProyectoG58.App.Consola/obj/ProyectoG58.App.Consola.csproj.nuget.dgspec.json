@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj": {}
+    "C:\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj": {
+    "C:\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj",
+        "projectUniqueName": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj",
         "projectName": "ProyectoG58.App.Consola",
-        "projectPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\obj\\",
+        "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\ProyectoG58.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\Caballero\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Caballero\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,13 +24,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj"
+              "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj": {
+                "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj"
               },
-              "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj": {
-                "projectPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj"
+              "C:\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj": {
+                "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj"
               }
             }
           }
@@ -43,7 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -67,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj": {
+    "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
         "projectName": "ProyectoG58.App.Dominio",
-        "projectPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\obj\\",
+        "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Caballero\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Caballero\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -91,7 +89,6 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -103,7 +100,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -122,21 +118,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj": {
+    "C:\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj",
         "projectName": "ProyectoG58.App.Persistencia",
-        "projectPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\ProyectoG58.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Caballero\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Caballero\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -146,10 +142,9 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCiclo3\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj"
+              "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj": {
+                "projectPath": "C:\\Proyecto_Drogueria\\ProyectoG58.App.Dominio\\ProyectoG58.App.Dominio.csproj"
               }
             }
           }
@@ -162,7 +157,6 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -204,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

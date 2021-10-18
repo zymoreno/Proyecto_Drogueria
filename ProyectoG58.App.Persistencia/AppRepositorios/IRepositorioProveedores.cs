@@ -7,7 +7,7 @@ using ProyectoG58.App.Dominio;
 {
     public interface IRepositorioProveedores
     {
-        IEnumerable<Proveedor> GetAllProveedores();
+        IEnumerable<Proveedor> GetAllProveedores(string? nombre);
         Proveedor AddProveedor(Proveedor proveedor);
         Proveedor UpdateProveedor(Proveedor proveedor);
         void DeleteProveedor(int idProveedor);    

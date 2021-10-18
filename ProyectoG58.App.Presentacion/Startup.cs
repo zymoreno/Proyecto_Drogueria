@@ -9,12 +9,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-//using ProyectoG58.App.Persistencia.AppRepositorios;
+using ProyectoG58.App.Persistencia;
 
 namespace ProyectoG58.App.Presentacion
 {
     public class Startup
     {
+
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -25,8 +27,24 @@ namespace ProyectoG58.App.Presentacion
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                builder =>
+                                {
+                                    builder.WithOrigins("http://localhost:5001",
+                                                        "https://localhost:5001")
+                                                        .AllowAnyHeader()
+                                                        .AllowAnyMethod();
+                                });
+            });
+
+            services.AddControllers();
             services.AddRazorPages();
-            //services.AddSingleton<IRepositorioFormador, RepositorioFormador>();
+            services.AddScoped<IRepositorioClientes, RepositorioClientes>();
+             services.AddScoped<IRepositorioProveedores, RepositorioProveedores>();
+            services.AddSingleton<ProyectoG58.App.Persistencia.AppContext>();
             //escribir los servicios de los IRepositorios
         }
 
@@ -48,6 +66,8 @@ namespace ProyectoG58.App.Presentacion
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
